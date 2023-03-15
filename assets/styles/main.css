@@ -1,0 +1,131 @@
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+}
+
+:root {
+  --main-color : #DBAE3E;
+  --second-color : #FCF4E8;
+  --third-color :  #C1B097;
+  --text-color : #000000;
+  --text-color-button :#FFFFFF;
+  --main-font : 'Montserrat';
+  --second-font : 'Pacifico';
+  --text-weight :400;
+  --text-size : 16px ;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* -----------------------  Hero  ---------------------------- */
+
+.hero-img {
+    height: 100%;
+    background-image: url("/assets/images/hero.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+
+.decoration-hero {
+    width: 40%;
+    height: 100%;
+    backdrop-filter: blur(3px) saturate(163%);
+    background-color: rgba(252, 244, 232, 0.67);
+    position: absolute;
+
+}
+
+/* -----------------------  Hero Title - Header  ---------------------------- */
+
+.header {
+  margin: 50% 0.5rem;
+}
+
+.header-text {
+  line-height: 3rem;
+  font-weight: 300;
+  font-size: 2.1rem;
+}
+
+.handwritting {
+  font-family: var(--second-font);
+  font-size: 2.5rem;
+}
+
+/* -----------------------  Logo ---------------------------- */
+
+.logo {
+  position: absolute;
+  width: 160px;
+  height: 80px;
+  border-top-left-radius: 110px;
+  border-bottom-left-radius: 110px;
+  z-index: 3;
+  right: 0;
+  padding: 1.2rem 0.2rem 1rem 1rem;
+  font-family: var(--second-font);
+  font-size: 1.5rem;
+  color: var(--text-color-button);
+  background-color: var(--text-color);
+}
+
+
+/* -----------------------  NavBar  ---------------------------- */
+
+.nav-bar{
+  display: flex;
+  font-family: var(--main-font);
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.nav-bar li {
+  display: flex;
+  margin: 1.2em 0.5em;
+  padding: 0;
+  font-size: 2vh;
+}
+.nav-bar a {
+  display: flex;
+  padding: 0 0.7em;
+  color: var(--text-color);
+  position: relative;
+  text-decoration: none;
+  
+}
+.nav-bar a:before {
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  left: 15%;
+  right: 15%;
+  top: 0;
+  bottom: 0;
+  border-left: 3px solid var(--text-color);
+  border-right: 3px solid var(--text-color);
+}
+
+.nav-bar a:hover:before,
+.nav-bar .current a:before {
+  opacity: 1;
+  left: 0;
+  right: 0;
+}
+
+
+
+
+
+
+
