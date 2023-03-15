@@ -18,7 +18,55 @@
     --text-color-button :#FFFFFF;
     --main-font : 'Montserrat', sans-serif;
     --second-font : 'Pacifico', cursive;
-    --text-weight :400;
+    --text-weight: 400px;
     --text-size : 16px ;
 }
-/* test */
+.filtre {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5%;
+  background-color: var(--main-color);
+  width: 100%;
+}
+
+
+
+.filtre {
+  padding: 5%;
+  /* filter: drop-shadow(16px 16px 20px black); */
+
+}
+
+.filtreButton {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  /* border: #000000 2px; */
+  /* filter: drop-shadow(16px 16px 20px black); */
+
+}
+
+div.filtre :nth-child(1) {
+  background-color: var(--third-color);
+  /* background-image: url(/assets/images/1.png) */
+}
+
+div.filtre :nth-child(2) {
+  background-color: var(--third-color);
+
+  /* background-image: url(/assets/images/2.png) */
+}
+
+div.filtre :nth-child(3) {
+  background-color: var(--third-color);
+
+  /* background-image: url(/assets/images/3.png) */
+}
+
+div.filtre :nth-child(4) {
+  background-color: var(--third-color);
+
+  /* background-image: url(/assets/images/4.png) */
+}
