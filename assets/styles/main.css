@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+:root {
+    --main-color : #DBAE3E;
+    --second-color : #FCF4E8;
+    --third-color :  #C1B097;
+    --text-color : #000000;
+    --text-color-button :#FFFFFF;
+    --main-font : 'Montserrat', sans-serif;
+    --second-font : 'Pacifico', cursive;
+    --text-weight :400;
+    --text-size : 16px ;
+}
+
+.map {
+border: 1px solid white;
+border-radius: 15px;
+box-shadow: 1px 1px 1px 1px grey;
+padding: 15px;
+background-color: white;
+
+}
+
+
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--second-color);
+    padding-bottom: 30px;
+  
+}
+
+.textMap {
+  
+    font-family: var(--second-font);
+    text-align: center;
+    font-size: 30px;
+    font-weight: var(--text-weight);
+    padding: 15px;
+}
