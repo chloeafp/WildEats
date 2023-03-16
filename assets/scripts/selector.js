@@ -3,7 +3,7 @@ const filtres = document.querySelectorAll(".filtreButton");
 import restaurant from "/tableau";
 filtres.forEach((filtre) => {
   filtre.addEventListener("click", (e) => {
-    btn = e.target.value;
+    let btn = e.target.value;
 
     if (btn === "0") {
       for (let i = 0; i < restaurant[0].length; i++) {
