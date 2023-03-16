@@ -50,14 +50,14 @@ body, html {
 }
 
 .header-text {
-  line-height: 3rem;
+  line-height: 4rem;
   font-weight: 300;
-  font-size: 2.1rem;
+  font-size: 2.5rem;
 }
 
 .handwritting {
   font-family: var(--second-font);
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 /* -----------------------  Logo ---------------------------- */
@@ -84,6 +84,7 @@ body, html {
   display: flex;
   font-family: var(--main-font);
   text-transform: uppercase;
+  justify-content: space-between;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -92,8 +93,10 @@ body, html {
   display: flex;
   margin: 1.2em 0.5em;
   padding: 0;
-  font-size: 2vh;
+  font-size: 1.2rem;
 }
+
+
 .nav-bar a {
   display: flex;
   padding: 0 0.7em;
@@ -124,8 +127,37 @@ body, html {
 }
 
 
-
-
+/* ----------------------- Media queries  ---------------------------- */
+@media screen and (min-width: 1570px) {
+  .hamburger {
+    display: none;
+  }
+}
+  
+@media screen and (max-width:1570px) and (min-width: 1260px){
+  .decoration-hero {
+    width: 50%;
+  } 
+  .hamburger {
+    display: none;
+  }
+}
+@media screen and (max-width:1260px) and (min-width: 1052px){
+  .decoration-hero {
+    width: 60%;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+@media screen and (max-width:1052px) and (min-width: 905px){
+  .decoration-hero {
+    width: 70%;
+  }
+  .hamburger {
+    display: none;
+  }
+}
 
 
 
