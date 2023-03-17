@@ -3,9 +3,11 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--main-font);
 }
 
 :root {
+
     --main-color : #DBAE3E;
     --second-color : #FCF4E8;
     --third-color :  #C1B097;
