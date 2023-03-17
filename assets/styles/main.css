@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: var(--main-font);
 }
-
+body {
+  transition: all 1s;
+}
 :root {
   --main-color : #DBAE3E;
   --second-color : #FCF4E8;
@@ -17,6 +19,9 @@
   --text-weight :400;
   --text-size : 16px ;
 }
+
+
+
 
 body, html {
     height: 100%;
@@ -127,136 +132,55 @@ body, html {
 }
 
 /* -------------- Tommy -------------- */
-
+.selector {
+  background-color: var(--second-color);}
 
 .filtre {
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 5%;
-  background-color: var(--main-color);
+  /* gap: 5%; */
   width: 100%;
-  padding: 5% 30%;
+padding: 2% 2%;
 }
-
+.filtre {
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+  align-items: center;
+  flex-direction: row;
+    gap: 5%;
+    width: 100%;
+}
+.filtreTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .filtreButton {
   height: 75px;
-    width: 75px;
+  width: 75px;
   cursor: pointer;
   border-radius: 50%;
-  /* border: #000000 2px; */
+  margin-bottom: 5%;
+  background-color: var(--second-color);
+  border: black 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* filter: drop-shadow(16px 16px 20px black); */
-
 }
-
-div.filtre :nth-child(1) {
-  background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: var(--main-color); */
-    background-image: url(/assets/images/logos/logo_couleur_arancini.png)
-  }
-div.filtre :nth-child(2) {
-background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_asiatique.png)
+.filtreButton:hover {
+  background-color: var(--main-color);
+  transform: translateY(5px)
 }
-
-div.filtre :nth-child(3) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_brasserie.png)
-}
-
-div.filtre :nth-child(4) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_burger.png)
-}
-
-div.filtre :nth-child(5) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_creperie.png)
-}
-
-div.filtre :nth-child(6) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_fruits_de_mer.png)
-}
-
-div.filtre :nth-child(7) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_gastronomie.png)
-}
-
-div.filtre :nth-child(8) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_indien.png)
-}
-
-div.filtre :nth-child(9) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_pates.png)
-}
-
-div.filtre :nth-child(10) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_pizza.png)
-}
-
-div.filtre :nth-child(11) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_sandwich.png)
-}
-
-div.filtre :nth-child(12) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/)
+div img {
+  height: 75px;
+  width: 75px;
 }
 
 
