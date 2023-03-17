@@ -21,6 +21,12 @@
     --text-weight: 400px;
     --text-size : 16px ;
 }
+
+.selector {
+  width: 100%;
+  
+}
+
 .filtre {
   display: flex;
   flex-wrap: wrap;
