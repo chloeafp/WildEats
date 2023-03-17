@@ -1,3 +1,4 @@
+
 .box {
     display: flex;
     justify-content: center;
@@ -15,7 +16,7 @@
     color: black;
     text-align: center;
     font-family: var(--main-font);
-    font-weight: 900;
+   
 
 }
 
@@ -67,7 +68,8 @@
 }
 
 .popup {
-    margin: 6rem auto;
+    position: fixed;
+    margin:  auto;
     padding: 2rem;
     background: rgb(147, 172, 73);
     border-radius: 10px;
@@ -78,6 +80,9 @@
 
 
 }
+
+
+
 
 .popup p {
     font-size: larger;
