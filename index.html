@@ -1,36 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&family=Pacifico&display=swap" rel="stylesheet"/>
+   
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles/menu-burger.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" />
     <title>Wild Eats</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/styles/main.css">
-</head>
+  </head>
 
-<body>
-    <section class="navbar">
 
-        <div>
-            <ul>
-                <li>Accueil</li>
-                <li>Our List</li>
-                <li>Discover</li>
-                <li>Contact us</li>
-            </ul>
+  <body>
+
+    <section class="hero-img">
+      <div class="logo">WildEaters .</div>
+      <div class="decoration-hero">
+        <input class="hamburger" type="checkbox" id="votre-id" />
+        <label for="votre-id"><span></span></label>
+        <ul class="nav-bar">
+          <li><a href="">Accueil</a></li>
+          <li><a href="">Our List</a></li>
+          <li><a href="">Discover</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+
+        <header class="header">
+          <h1 class="header-text">
+            <span class="handwritting">Découvrez</span> les meilleurs
+            restaurants <br />
+            autour de la <span class="handwritting">Wild !</span>
+          </h1>
+        </header>
+      </div>
+    </section>
+
+
+    </section>
+
+
+  
+    <section class="selector">
+
+        <div class="filtre">
+            <button class="filtreButton" value="0">
+                <div><img class="pictoFiltre" src="assets/images/logos/logo_couleur_arancini.png" alt="">
+                    <p>Arancini</p>
+                </div>
+            </button>
+            <button class="filtreButton" value="1">
+                <div><img class="pictoFiltre" src="assets/images/logos/logo_couleur_asiatique.png" alt="">
+                    <p>Asiatique</p>
+                </div>
+            </button>
+            <button class="filtreButton" value="2">
+                <div><img class="pictoFiltre" src="assets/images/logos/logo_couleur_brasserie.png" alt="">
+                    <p>Brasserie</p>
+                </div>
+            </button>
+            <button class="filtreButton" value="3">
+                <div><img class="pictoFiltre" src="assets/images/logos/logo_couleur_burger.png" alt="">
+                    <p>Burger</p>
+                </div>
+            </button>
+            <button class="filtreButton" value="4">
+                <div><img class="pictoFiltre" src="assets/images/logos/logo_couleur_creperie.png" alt="">
+                    <p>Creperie</p>
+                </div>
+            </button>
+            <button class="filtreButton" value="5">
+                <div><img class="pictoFiltre" src="assets/images/logos/logo_couleur_fruits_de_mer.png" alt="">
+                    <p>Fruit de mers</p>
+                </div>
+            </button>
+            <button class="filtreButton" value="6">
+                <div><img class="pictoFiltre" src="assets/images/logos/logo_couleur_gastronomie.png" alt="">
+                    <p>Gastronomique</p>
+                </div>
+            </button>
+            <button class="filtreButton" value="7">
+                <div><img class="pictoFiltre" src="assets/images/logos/logo_couleur_indien.png" alt="">
+                    <p>Indien</p>
+                </div>
+            </button>
+            <button class="filtreButton" value="8">
+                <div><img class="pictoFiltre" src="assets/images/logos/logo_couleur_pates.png" alt="">
+                    <p>Pâtes</p>
+                </div>
+            </button>
+            <button class="filtreButton" value="9">
+                <div><img class="pictoFiltre" src="assets/images/logos/logo_couleur_pizza.png" alt="">
+                    <p>Pizza</p>
+                </div>
+            </button>
+            <button class="filtreButton" value="10">
+                <div><img class="pictoFiltre" src="assets/images/logos/logo_couleur_sandwich.png" alt="">
+                    <p>Sandwich</p>
+                </div>
+            </button>
+            <button class="filtreButton" value="11">
+                <div><img class="pictoFiltre" src="assets/images/logos/carotte.png" alt="carotte">
+                    <p>Vegan</p>
+                </div>
+            </button>
         </div>
-
-    </section>
-    <section class="hero">
-
-        <h1>Mon fameux texte trop bien</h1>
-
     </section>
 
+   
+    <div class="box">
+      <input type="text" class="barre" placeholder=" Tapez votre e-mail" />
+      <a href="#popup" class="button-submit">Newsletter</a>
+    </div>
+
+    
+    <div id="popup" class="overlay">
+      <div class="popup">
+        <h2>Votre E-mail a été envoyé avec succés.</h2>
+        <br />
+        <a href="#" class="cross">x</a>
+        <p>
+          Merci pour votre visite! Toute l'equipe vous souhaite un bon appétit à
+          bientot !
+        </p>
+      </div>
+    </div>
 
     <section class="aboutUs">
       
@@ -44,36 +142,22 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
-       
-
-
-
-
-
-
-       
-       
-      
+    
         
     </section>
-    <section class="selector">
+    <footer>
+      <div class="logo-social-media">
+        <h3 class="Follow">Follow us</h3>
+        <a href="https://fr-fr.facebook.com/">
+            <img src="assets/facebook 1.png" alt="logo facebook"/></a>
+        <a href="https://www.instagram.com/">
+            <img src="assets/instagram 1.png"/></a>
+        <a href="https://www.linkedin.com/feed/">
+            <img src="assets/linkedin 1.png"/></a>
+      </div>
+    </footer>
+  </body>
 
-    </section>
-    <section class="shopList">
-
-    </section>
-    <section class="footer">
-
-        <div>
-            <ul>
-                <li>Accueil</li>
-                <li>Our List</li>
-                <li>Discover</li>
-                <li>Contact us</li>
-            </ul>
-        </div>
-
-    </section>
-</body>
-
+<script type="module" src="/assets/scripts/selector.js"></script>
 </html>
+
