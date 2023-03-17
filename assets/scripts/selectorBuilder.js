@@ -39,3 +39,4 @@ function createCard(name, picture, description, adress, link) {
   cardDescription.innerHTML = link;
   cardBody.appendChild(cardLink);
 }
+// export { createCard } from "./selector.js";
