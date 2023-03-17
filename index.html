@@ -13,7 +13,14 @@
     <link rel="stylesheet" type="text/css" href="./assets/styles/menu-burger.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" />
     <title>Wild Eats</title>
-  </head>
+
+    <link rel="stylesheet" href="./assets/styles/cards.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
 
   <body>
 
@@ -49,6 +56,7 @@
       </p>
     </section>
     <section class="selector">
+
 
         <div class="filtre">
             <button class="filtreButton" value="0">
@@ -113,7 +121,29 @@
             </button>
         </div>
     </section>
+    <section class="shopList">
 
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <div>
+                        <img class="card-picture" src="assets/images/la_recre.jpg" alt="galette">
+                    </div>
+                    <div class="card-container">
+                        <p class="card-title">LA RECRE</p>
+                        <p class="card-description">Decouvrez nos spécialités : grillades au feu de bois, nuggets et
+                            lasagne de legumes, côte de boeuf , camembert roti, ou encore nos Burgers !</p>
+                    </div>
+                </div>
+                <div class="flip-card-back">
+                    <p class="adress">Adresse</p>
+                    <p class="phone-number">Numéro de téléphone</p>
+                    <p class="button" onclick="createCard()">Commander</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <div class="box">
       <input type="text" class="barre" placeholder=" Tapez votre e-mail" />
       <a href="#popup" class="button-submit">Newsletter</a>
@@ -145,5 +175,9 @@
   </body>
 
 <script type="module" src="/assets/scripts/selector.js"></script>
+<script src="assets/scripts/selectorBuilder.js"></script>
+</html>
+
+
 </html>
 
