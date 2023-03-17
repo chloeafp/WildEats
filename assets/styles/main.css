@@ -161,17 +161,8 @@ body, html {
 .selector {
   background-color: var(--second-color);}
 
-.filtre {
 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  /* gap: 5%; */
-  width: 100%;
-padding: 2% 2%;
-}
+
 .filtre {
   display: flex;
   flex-wrap: wrap;
@@ -180,6 +171,7 @@ padding: 2% 2%;
   flex-direction: row;
     gap: 5%;
     width: 100%;
+    padding: 2% 2%;
 }
 .filtreTxt {
   display: flex;
@@ -243,3 +235,4 @@ padding: 2% 2%;
     display: none;
   }
 }
+
