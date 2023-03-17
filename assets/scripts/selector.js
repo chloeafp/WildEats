@@ -1,7 +1,6 @@
 const filtres = document.querySelectorAll(".filtreButton");
-// import card from "./selectorBuilder.js";
+// import { createCard } from "./selectorBuilder.js";
 import restaurant from "./tableau.js";
-
 
 filtres.forEach((filtre) => {
   filtre.addEventListener("click", (e) => {

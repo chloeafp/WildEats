@@ -3,7 +3,6 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    flex-wrap: wrap;
 }
 
 :root {
@@ -18,36 +17,9 @@
     --text-size : 16px ;
 }
 
-.map {
-border: 1px solid white;
-border-radius: 15px;
-box-shadow: 1px 1px 1px 1px grey;
-padding: 15px;
-background-color: white;
-}
 
 
 
-.aboutUs {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
-    background-color: var(--second-color);
-    padding-bottom: 30px;
-  
-}
-
-.textMap {
-  
-    font-family: var(--second-font);
-    text-align: center;
-    font-size: 30px;
-    font-weight: var(--text-weight);
-    padding: 15px;
-}
 
 body, html {
     height: 100%;
@@ -196,9 +168,45 @@ body, html {
   background-color: var(--main-color);
   transform: translateY(5px)
 }
+
 .pictoFiltre {
   height: 75px;
   width: 75px;
+}
+/*---------------------------------------------------*/
+.selector {
+  width: 100%;
+}
+
+.map {
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px grey;
+  padding: 15px;
+  background-color: white;
+}
+
+
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--second-color);
+  padding-bottom: 30px;
+
+}
+
+.textMap {
+
+  font-family: var(--second-font);
+  text-align: center;
+  font-size: 30px;
+  font-weight: var(--text-weight);
+  padding: 15px;
 }
 
 

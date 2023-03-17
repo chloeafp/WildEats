@@ -1,23 +1,18 @@
-*{
-    margin:0;
-    padding: 0;
-}
-
-
 .box {
     display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 20vh;
-   background-color: var(--second-color);
-   
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: var(--second-color);
+
 }
 
 .barre {
     border-radius: 10px;
     width: 300px;
     height: 30px;
-    box-shadow: 2px 2px; color: black;
+    box-shadow: 2px 2px;
+    color: black;
     text-align: center;
     font-family: var(--main-font);
     font-weight: 900;
@@ -26,30 +21,31 @@
 
 
 .button-submit {
-border-radius: 10px;
-width: 150px;
-height: 34px;
-background-color:black;
-color: rgb(227, 236, 236);
-cursor: pointer;
-font-family: var(--main-font);
-font-weight: 900;
-text-decoration: none;
-display: flex;
-align-items: center;
-justify-content: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 34px;
+    background-color: black;
+    color: rgb(227, 236, 236);
+    cursor: pointer;
+    font-family: var(--main-font);
+    font-weight: 900;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button-submit:hover {
-    background-color:darksalmon;
+    background-color: darksalmon;
     color: black;
-    
-  }
 
-  .barre:focus, .barre:focus-visible {
-    border-color:blue;
+}
+
+.barre:focus,
+.barre:focus-visible {
+    border-color: blue;
     outline: none;
-  }
+}
 
 
 
@@ -62,44 +58,44 @@ justify-content: center;
     opacity: 0;
     visibility: hidden;
     transition: opacity .4s;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .overlay:target {
-visibility: visible;
-opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 .popup {
     margin: 6rem auto;
     padding: 2rem;
-    background:rgb(147, 172, 73);
-    border-radius:  10px;
+    background: rgb(147, 172, 73);
+    border-radius: 10px;
     width: 40%;
     position: relative;
-    transition:  all 0.4s ease-in-out;
-    color:rgb(226, 193, 199);
-    
-    
+    transition: all 0.4s ease-in-out;
+    color: rgb(226, 193, 199);
+
+
 }
 
 .popup p {
-    font-size:larger;
+    font-size: larger;
 }
 
 .popup .cross {
     position: absolute;
     top: 0;
-    right:  1.5rem;
-    font-size:  1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
     transition: 0.3s ease;
-    color:#333f0b;
+    color: #333f0b;
 }
 
 .popup .cross:hover {
-    color:blue;
+    color: blue;
 }
 
 footer {
@@ -111,7 +107,7 @@ footer {
 }
 
 .logo-social-media img {
-    
+
     height: 35px;
     margin: 15px 25px;
     border-radius: 10px;
@@ -121,11 +117,10 @@ footer {
     text-align: center;
     padding-top: 5px;
     color: aliceblue;
-    font-family:  var(--second-font);
-    font-size:25px;
+    font-family: var(--second-font);
+    font-size: 25px;
 }
 
 .logo-social-media p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
