@@ -178,7 +178,7 @@ padding: 2% 2%;
   background-color: var(--main-color);
   transform: translateY(5px)
 }
-div img {
+.pictoFiltre {
   height: 75px;
   width: 75px;
 }
