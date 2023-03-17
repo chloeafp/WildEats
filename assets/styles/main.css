@@ -1,8 +1,4 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&display=swap');
-
-
 * {
     margin:0;
     padding: 0;
@@ -18,7 +14,7 @@
     --text-color-button :#FFFFFF;
     --main-font : 'Montserrat', sans-serif;
     --second-font : 'Pacifico', cursive;
-    --text-weight: 400px;
+    --text-weight :400;
     --text-size : 16px ;
 }
 
@@ -27,132 +23,221 @@
   
 }
 
+.map {
+border: 1px solid white;
+border-radius: 15px;
+box-shadow: 1px 1px 1px 1px grey;
+padding: 15px;
+background-color: white;
+}
+
+
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--second-color);
+    padding-bottom: 30px;
+  
+}
+
+.textMap {
+  
+    font-family: var(--second-font);
+    text-align: center;
+    font-size: 30px;
+    font-weight: var(--text-weight);
+    padding: 15px;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* -----------------------  Hero  ---------------------------- */
+
+.hero-img {
+    height: 100%;
+    background-image: url("/assets/images/hero.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+
+.decoration-hero {
+    width: 40%;
+    height: 100%;
+    backdrop-filter: blur(3px) saturate(163%);
+    background-color: rgba(252, 244, 232, 0.67);
+    position: absolute;
+
+}
+
+/* -----------------------  Hero Title - Header  ---------------------------- */
+
+.header {
+  margin: 40% 0.5rem;
+}
+
+.header-text {
+  line-height: 4rem;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+.handwritting {
+  font-family: var(--second-font);
+  font-size: 2.8rem;
+}
+
+/* -----------------------  Logo ---------------------------- */
+
+.logo {
+  position: absolute;
+  width: 160px;
+  height: 80px;
+  border-top-left-radius: 110px;
+  border-bottom-left-radius: 110px;
+  z-index: 3;
+  right: 0;
+  padding: 1.2rem 0.2rem 1rem 1rem;
+  font-family: var(--second-font);
+  font-size: 1.5rem;
+  color: var(--text-color-button);
+  background-color: var(--text-color);
+}
+
+
+/* -----------------------  NavBar  ---------------------------- */
+
+.nav-bar{
+  display: flex;
+  font-family: var(--main-font);
+  text-transform: uppercase;
+  justify-content: space-between;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.nav-bar li {
+  display: flex;
+  margin: 1.2em 0.5em;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+
+.nav-bar a {
+  display: flex;
+  padding: 0 0.7em;
+  color: var(--text-color);
+  position: relative;
+  text-decoration: none;
+  
+}
+.nav-bar a:before {
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  left: 15%;
+  right: 15%;
+  top: 0;
+  bottom: 0;
+  border-left: 3px solid var(--text-color);
+  border-right: 3px solid var(--text-color);
+}
+
+.nav-bar a:hover:before,
+.nav-bar .current a:before {
+  opacity: 1;
+  left: 0;
+  right: 0;
+}
+
+/* -------------- Tommy -------------- */
+.selector {
+  background-color: var(--second-color);}
+
+
+
 .filtre {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+    justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 5%;
-  background-color: var(--main-color);
-  width: 100%;
-  padding: 5% 30%;
+    gap: 5%;
+    width: 100%;
+    padding: 2% 2%;
 }
-
+.filtreTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .filtreButton {
   height: 75px;
-    width: 75px;
+  width: 75px;
   cursor: pointer;
   border-radius: 50%;
-  /* border: #000000 2px; */
+  margin-bottom: 5%;
+  background-color: var(--second-color);
+  border: black 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* filter: drop-shadow(16px 16px 20px black); */
-
+}
+.filtreButton:hover {
+  background-color: var(--main-color);
+  transform: translateY(5px)
+}
+.pictoFiltre {
+  height: 75px;
+  width: 75px;
 }
 
-div.filtre :nth-child(1) {
-  background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: var(--main-color); */
-    background-image: url(/assets/images/logos/logo_couleur_arancini.png)
+
+/* ----------------------- Media queries  ---------------------------- */
+
+
+@media screen and (min-width: 1570px) {
+  .hamburger {
+    display: none;
   }
-div.filtre :nth-child(2) {
-background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_asiatique.png)
+}
+  
+@media screen and (max-width:1570px) and (min-width: 1260px){
+  .decoration-hero {
+    width: 50%;
+  } 
+  .hamburger {
+    display: none;
+  }
+}
+@media screen and (max-width:1260px) and (min-width: 1052px){
+  .decoration-hero {
+    width: 60%;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+@media screen and (max-width:1052px) and (min-width: 905px){
+  .decoration-hero {
+    width: 70%;
+  }
+  .hamburger {
+    display: none;
+  }
 }
 
-div.filtre :nth-child(3) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_brasserie.png)
-}
-
-div.filtre :nth-child(4) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_burger.png)
-}
-
-div.filtre :nth-child(5) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_creperie.png)
-}
-
-div.filtre :nth-child(6) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_fruits_de_mer.png)
-}
-
-div.filtre :nth-child(7) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_gastronomie.png)
-}
-
-div.filtre :nth-child(8) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_indien.png)
-}
-
-div.filtre :nth-child(9) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_pates.png)
-}
-
-div.filtre :nth-child(10) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_pizza.png)
-}
-
-div.filtre :nth-child(11) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/logo_couleur_sandwich.png)
-}
-
-div.filtre :nth-child(12) {
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: var(--main-color); */
-  background-image: url(/assets/images/logos/)
-}
