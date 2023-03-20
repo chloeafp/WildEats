@@ -1,5 +1,4 @@
-// const cards = document.querySelector(".flip-card");
-// import restaurant from "/tableau";
+const cards = document.querySelector(".flip-card");
 
 function createCard(name, picture, description, adress, link) {
   const card = document.createElement("div");
@@ -39,4 +38,4 @@ function createCard(name, picture, description, adress, link) {
   cardDescription.innerHTML = link;
   cardBody.appendChild(cardLink);
 }
-// export { createCard } from "./selector.js";
+export default createCard;
