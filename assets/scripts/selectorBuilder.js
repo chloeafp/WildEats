@@ -5,7 +5,7 @@ function createCard(name, picture, description, adress, link) {
 
 
     const card = document.createElement("div");
-    card.classList.add("flip-card-inner");
+    card.classList.add(`flip-card-inner`);
     cards.appendChild(card);
   
     const cardHeader = document.createElement("div");
