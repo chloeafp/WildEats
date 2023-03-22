@@ -21,7 +21,7 @@
 }
 
 
-.button-submit {
+#button-submit {
     border-radius: 10px;
     width: 150px;
     height: 34px;
@@ -36,7 +36,7 @@
     justify-content: center;
 }
 
-.button-submit:hover {
+#button-submit:hover {
     background-color: darksalmon;
     color: black;
 
@@ -67,16 +67,24 @@
     opacity: 1;
 }
 
+
+#popup {
+    display: flex;
+    justify-content: center;
+}
+
+
 .popup {
     position: fixed;
     margin:  auto;
     padding: 2rem;
-    background: rgb(147, 172, 73);
+    background: rgb(0, 0, 0);
     border-radius: 10px;
     width: 40%;
     position: relative;
     transition: all 0.4s ease-in-out;
     color: rgb(226, 193, 199);
+    
 
 
 }
@@ -98,6 +106,7 @@
     transition: 0.3s ease;
     color: #333f0b;
 }
+
 
 .popup .cross:hover {
     color: blue;
