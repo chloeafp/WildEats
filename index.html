@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&family=Pacifico&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/styles/menu-burger.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/menu-burger.css" />
     <link rel="stylesheet" type="text/css" href="./assets/styles/footer.css" />
     <link rel="stylesheet" type="text/css" href="./assets/styles/cards.css">
     <link rel="stylesheet" type="text/css" href="./assets/styles/filtre-image.css">
@@ -22,35 +23,37 @@
 
 
 <body>
-
+    <!---------------------------------- HERO / NAVBAR ------------------------------------>
     <section class="hero-img">
-      <div class="logo">WildEats .</div>
-      <div class="decoration-hero">
-        <input class="hamburger" type="checkbox" id="menu-hamburger" />
-        <label for="menu-hamburger"><span></span></label>
-        <ul class="nav-bar">
-            <li><a href="">Accueil</a></li>
-            <li><a href="">Our List</a></li>
-            <li><a href="">Discover</a></li>
-            <li><a href="">Contact us</a></li>
-        </ul>
+        <div class="logo">WildEats .</div>
+        <div class="decoration-hero">
+            <input class="hamburger" type="checkbox" id="menu-hamburger" />
+            <label for="menu-hamburger"><span></span></label>
+            <ul class="nav-bar">
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Our List</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
 
-    <header class="header">
-        <h1 class="header-text">
-            <span class="handwritting">Découvrez</span> les meilleurs
-            restaurants <br />
-            autour de la <span class="handwritting">Wild !</span>
-        </h1>
-    
-        </header>
+            <header class="header">
+                <h1 class="header-text">
+                    <span class="handwritting">Découvrez</span> les meilleurs
+                    restaurants <br />
+                    autour de la <span class="handwritting">Wild !</span>
+                </h1>
+
+            </header>
         </div>
     </section>
 
 
-</section>
+    </section>
 
 
-<section class="selector">
+   
+    <!---------------------------------- CARDS  ------------------------------------>
+    <section class="selector">
 
 
     <div class="filtre">
@@ -87,63 +90,79 @@
         </div>
     </div>
     </section>
+
     <section class="shopList">
         <div class="carteContainer"></div>
 
     </section>
 
-<div class="box" id="popup-reset">
-    
-    <input type="email" class="barre" placeholder=" Tapez votre e-mail" />
-    <button  id="button-submit">Newsletter</button>
-  </div>
+
+    <!---------------------------------- NEWSLETTER ------------------------------------>
 
 
-  <div id="popup" class="overlay">
-    <div class="popup">
-      <h2 class="popup-title"></h2>
-      <br />
-      <a href="#popup-reset" class="cross">x</a>
-      <p class="popup-description">
-       
-      </p>
-    </div>
-  </div>
+    <section class="aboutUs">
+        <div id="titleSectionForm">
+            <h2>Des pépites culinaires dans votre boîte email</h2>  
+            <h3>Inscrivez-vous à notre newsletter et restez à jour des bons plans et des nouveautés du quartier !</h3>
+        </div>   
 
-    </section>  
+        <div class="box" id="popup-reset">
 
-<section class="aboutUs">
+            <input type="email" class="barre" placeholder=" Tapez votre e-mail" />
+            <button id="button-submit">Newsletter</button>
+        </div>
 
-    <div class="textMap">
-        <h2>Trouver la Wild Code School : </h2>
 
-    </div>
-    <div>
-        <iframe class="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.2655993971457!2d-1.5492854708396233!3d47.21138518691853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805eeb04e035b03%3A0xfe166fb643fd3846!2s4%20Rue%20Baron%2C%2044000%20Nantes!5e0!3m2!1sfr!2sfr!4v1678962862241!5m2!1sfr!2sfr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div id="popup" class="overlay">
+            <div class="popup">
+                <h2 class="popup-title"></h2>
+                <br />
+                <a href="#  titleSectionForm" class="cross">x</a>
+                <p class="popup-description">
 
-    </div>
-    
-    
+                </p>
+            </div>
+        </div>
     </section>
+        <!---------------------------------- MAP ------------------------------------>
+        
+        
+        <div class="textMap">
+   
+
+        </div>
+        <div>
+            <iframe class="map"
+                src="https://www.google.com/maps/d/embed?mid=1OuulayR20hGOHzBd6hI4qc7TBTOujZM&ehbc=2E312F"
+                ></iframe>
+    
+        </div>
+    
+     
+
+
+  
+    <!---------------------------------- FOOTER ------------------------------------>
     <footer>
         <div class="logo-social-media">
             <h3 class="Follow">Follow us</h3>
             <a href="https://fr-fr.facebook.com/"><img src="assets/images/facebook 1.png" alt="logo facebook" /></a>
             <a href="https://www.instagram.com/"><img src="assets/images/instagram 1.png" logo instagram" /></a>
             <a href="https://www.linkedin.com/feed/"><img src="assets/images/linkedin 1.png" logo instagram" /></a>
-            </div>
+        </div>
     </footer>
-<script type="module" src="/assets/scripts/selector.js"></script>
-<script type="module" src="assets/scripts/selectorBuilder.js"></script>
-<script type="module" src="/assets/scripts/validateNewsletter.js"></script>
-    </body>
+
+    <!---------------------------------- SCRIPT JS ------------------------------------>
+
+    <script type="module" src="/assets/scripts/selector.js"></script>
+    <script type="module" src="assets/scripts/selectorBuilder.js"></script>
+    <script type="module" src="/assets/scripts/validateNewsletter.js"></script>
+
+
+</body>
 
 
 </html>
 
 
 </html>
-
