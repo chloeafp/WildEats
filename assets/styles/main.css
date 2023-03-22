@@ -176,6 +176,22 @@ body, html {
     width: 75px;
 }
 
+/* --------------------- Title About Us --------------------- */
+#titleSectionForm h2 {
+  font-family: var(--second-font);
+  font-size: 2rem;
+}
+
+#titleSectionForm h3 {
+  font-weight: 300;
+  
+  
+}
+
+#titleSectionForm {
+  text-align: center;
+  margin: 2rem auto;
+}
 /*---------------------------------------------------*/
 
 
