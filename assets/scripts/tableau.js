@@ -214,7 +214,7 @@ const restaurant = [
     adress: "54 Rue Fouré, 44000 Nantes",
     link: "https://www.omija.fr/menus",
   },
-  // India n°7
+  // Indien n°7
   {
     type: "India",
     name: "PALAIS DE L INDE",
