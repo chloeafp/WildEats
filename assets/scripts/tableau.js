@@ -141,7 +141,7 @@ const restaurant = [
   {
     type: "Brasserie",
     name: "LES VOISINS",
-    picture: "./assets/images/les_voisins",
+    picture: "./assets/images/les_voisins.jpg",
     description:
       "Le bar restaurant Les Voisins vous propose une carte variée qui plaira à tous les gouts ! BURGER VG sauté de veau marengo andouillette grillée TAPAS",
     adress: "12 rue de Mayence 44000 Nantes",
