@@ -67,6 +67,13 @@
     opacity: 1;
 }
 
+
+#popup {
+    display: flex;
+    justify-content: center;
+}
+
+
 .popup {
     position: fixed;
     margin:  auto;
@@ -77,6 +84,7 @@
     position: relative;
     transition: all 0.4s ease-in-out;
     color: rgb(226, 193, 199);
+    
 
 
 }
@@ -98,6 +106,7 @@
     transition: 0.3s ease;
     color: #333f0b;
 }
+
 
 .popup .cross:hover {
     color: blue;
