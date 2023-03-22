@@ -141,15 +141,16 @@
         </div>
 
     </section>
+    
     <div class="box">
-      <input type="text" class="barre" placeholder=" Tapez votre e-mail" />
-      <a href="#popup" class="button-submit">Newsletter</a>
+      <input type="email" class="barre" placeholder=" Tapez votre e-mail" />
+      <button id="button-submit" onclick="createPopup()">Newsletter</button>
     </div>
 
     
     <div id="popup" class="overlay">
       <div class="popup">
-        <h2>Votre E-mail a été envoyé avec succés.</h2>
+        <h2 class="popup-title">Votre E-mail a été envoyé avec succés.</h2>
         <br />
         <a href="#" class="cross">x</a>
         <p>
@@ -181,15 +182,16 @@
           ><img src="assets/images/facebook 1.png" alt="logo facebook"
         /></a>
         <a href="https://www.instagram.com/"
-          ><img src="assets/images/instagram 1.png"logo instagram" /></a
+          ><img src="assets/images/instagram 1.png" alt="logo instagram" /></a
         >
         <a href="https://www.linkedin.com/feed/"
-          ><img src="assets/images/linkedin 1.png"logo instagram" /></a
+          ><img src="assets/images/linkedin 1.png" alt="logo instagram" /></a
         >
       </div>
     </footer>
   </body>
-  
+
+   <script  src="/assets/scripts/popup.js" type="text/javascript"></script>
   <script type="module" src="/assets/scripts/selector.js"></script>
   <script src="assets/scripts/selectorBuilder.js"></script>
 </html>

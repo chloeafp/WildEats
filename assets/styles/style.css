@@ -21,7 +21,7 @@
 }
 
 
-.button-submit {
+#button-submit {
 border-radius: 10px;
 width: 150px;
 height: 34px;
@@ -35,7 +35,7 @@ align-items: center;
 justify-content: center;
 }
 
-.button-submit:hover {
+#button-submit:hover {
     background-color:rgb(226, 209, 204);
     color: black;
     
@@ -102,6 +102,7 @@ opacity: 1;
 .popup .cross:hover {
     color:rgb(4, 4, 5);
     background-color: azure;
+    border-radius: 10px;
 }
 
 footer {
