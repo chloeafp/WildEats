@@ -115,22 +115,24 @@
     </div>
 
 </section>
-<div class="box">
-    <input type="text" class="barre" placeholder=" Tapez votre e-mail" />
-    <a href="#popup" class="button-submit">Newsletter</a>
-</div>
 
-<div id="popup" class="overlay">
+<div class="box">
+    <input type="email" class="barre" placeholder=" Tapez votre e-mail" />
+    <button id="button-submit">Newsletter</button>
+  </div>
+
+
+  <div id="popup" class="overlay">
     <div class="popup">
-        <h2>Votre E-mail a été envoyé avec succés.</h2>
-        <br />
-        <a href="#" class="cross">x</a>
-        <p>
-            Merci pour votre visite! Toute l'equipe vous souhaite un bon appétit à
-            bientot !
-        </p>
+      <h2 class="popup-title">Votre E-mail a été envoyé avec succés.</h2>
+      <br />
+      <a href="#" class="cross">x</a>
+      <p class="popup-description">
+        Merci pour votre visite! Toute l'equipe vous souhaite un bon appétit à
+        bientot !
+      </p>
     </div>
-    </div>
+  </div>
 
     </section>  
 
@@ -158,10 +160,12 @@
             <a href="https://www.linkedin.com/feed/"><img src="assets/images/linkedin 1.png" logo instagram" /></a>
             </div>
     </footer>
-    </body>
-
 <script type="module" src="/assets/scripts/selector.js"></script>
 <script type="module" src="assets/scripts/selectorBuilder.js"></script>
+<script type="module" src="/assets/scripts/validateNewsletter.js"></script>
+    </body>
+
+
 </html>
 
 
