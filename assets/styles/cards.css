@@ -6,17 +6,23 @@
     box-shadow: 1px 1px 10px rgb(220, 218, 218);
     cursor: default;
     border-radius: 1.0rem;
+    margin: 5%
 }
 
 .shopList {
     background-color: var(--second-color);
     padding: 20px;
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5%;
+        justify-content: center;
 }
 
 .card-top-part {
     width: 100%;
     height: 70%;
-        display: flex;
+    display: flex;
 }
 
 .left-part {
@@ -31,7 +37,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-        justify-content: flex-end;
+    justify-content: flex-end;
     }
     
     .user-name {
@@ -78,10 +84,10 @@
     box-shadow: 1px 1px 1px lightslategray;
     display: flex;
     align-items: center;
-        justify-content: center;
+    justify-content: center;
     }
 
-img {
+.photo {
     width: 100%;
 }
 
@@ -90,7 +96,7 @@ img {
     height: 100%;
     display: flex;
     flex-direction: row;
-        align-items: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -103,7 +109,7 @@ img {
     align-items: center;
     justify-content: center;
     font-size: 14px;
-        gap: 5.5px;
+    gap: 5.5px;
         font-weight: bold;
         transition: .2s linear;
         font-family: var(----main-font);

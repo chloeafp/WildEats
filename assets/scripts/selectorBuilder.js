@@ -1,5 +1,7 @@
 function createCard({ type, name, picture, description, adress, link }) {
-  return `<div class="${type}">
+  return `
+  <div class="${type}">
+  <div class="card">
   <div class="card-top-part">
     <div class="left-part">
       <div class="user-name">
@@ -38,6 +40,8 @@ function createCard({ type, name, picture, description, adress, link }) {
       </a>
     </div>
   </div>
+</div>
+</div>
 </div>`;
 }
 

@@ -141,7 +141,7 @@ const restaurant = [
   {
     type: "Brasserie",
     name: "LES VOISINS",
-    picture: "./assets/images/les_voisins",
+    picture: "./assets/images/les_voisins.jpg",
     description:
       "Le bar restaurant Les Voisins vous propose une carte variée qui plaira à tous les gouts ! BURGER VG sauté de veau marengo andouillette grillée TAPAS",
     adress: "12 rue de Mayence 44000 Nantes",
@@ -214,7 +214,7 @@ const restaurant = [
     adress: "54 Rue Fouré, 44000 Nantes",
     link: "https://www.omija.fr/menus",
   },
-  // India n°7
+  // Indien n°7
   {
     type: "India",
     name: "PALAIS DE L INDE",
