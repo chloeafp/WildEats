@@ -51,13 +51,15 @@ body, html {
 /* -----------------------  Hero Title - Header  ---------------------------- */
 
 .header {
-  margin: 40% 0.5rem;
+  margin: 30% 0.5rem;
 }
 
 .header-text {
   line-height: 4rem;
   font-weight: 300;
   font-size: 2.5rem;
+  position: absolute;
+
 }
 
 .handwritting {
