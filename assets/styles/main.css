@@ -25,6 +25,8 @@
 
 .map {
 border: 1px solid white;
+width:100%;
+margin : 0 auto; 
 border-radius: 15px;
 box-shadow: 1px 1px 1px 1px grey;
 padding: 15px;
