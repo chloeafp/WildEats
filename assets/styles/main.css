@@ -196,11 +196,8 @@ body, html {
 
 
 .map {
-  border: 1px solid white;
-  border-radius: 15px;
-  box-shadow: 1px 1px 1px 1px grey;
-  padding: 15px;
-  background-color: white;
+ width: 100%;
+ height: 20rem;
 }
 
 
@@ -215,15 +212,6 @@ body, html {
   background-color: var(--second-color);
   padding-bottom: 30px;
 
-}
-
-.textMap {
-
-  font-family: var(--second-font);
-  text-align: center;
-  font-size: 30px;
-  font-weight: var(--text-weight);
-  padding: 15px;
 }
 
 

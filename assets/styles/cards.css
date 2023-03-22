@@ -10,7 +10,7 @@
 }
 
 .shopList {
-    background-color: var(--second-color);
+    background-color: white;
     padding: 20px;
     display: flex;
         flex-direction: row;
