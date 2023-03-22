@@ -1,0 +1,53 @@
+div button p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn0 :nth-child(1) {
+    background-image: url(/assets/images/logos/logo_couleur_arancini.png);
+}
+
+.btn1 :nth-child(1) {
+    background-image: url(/assets/images/logos/logo_couleur_asiatique.png);
+}
+
+.btn2 :nth-child(1) {
+    background-image: url(/assets/images/logos/logo_couleur_brasserie.png);
+}
+
+.btn3 :nth-child(1) {
+    background-image: url(/assets/images/logos/logo_couleur_burger.png);
+}
+
+.btn4 :nth-child(1) {
+    background-image: url(/assets/images/logos/logo_couleur_creperie.png);
+}
+
+.btn5 :nth-child(1) {
+    background-image: url(/assets/images/logos/logo_couleur_fruits_de_mer.png);
+}
+
+.btn6 :nth-child(1) {
+    background-image: url(/assets/images/logos/logo_couleur_gastronomie.png);
+}
+
+.btn7 :nth-child(1) {
+    background-image: url(/assets/images/logos/logo_couleur_indien.png);
+}
+
+.btn8 :nth-child(1) {
+    background-image: url(/assets/images/logos/logo_couleur_pates.png);
+}
+
+.btn9 :nth-child(1) {
+    background-image: url(/assets/images/logos/logo_couleur_pizza.png);
+}
+
+.btn10 :nth-child(1) {
+    background-image: url(/assets/images/logos/logo_couleur_sandwich.png);
+}
+
+.btn11 :nth-child(1) {
+    background-image: url(/assets/images/logos/carotte.png);
+}

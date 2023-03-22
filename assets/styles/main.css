@@ -10,16 +10,18 @@ body {
 }
 
 :root {
-  --main-color: #DBAE3E;
-  --second-color: #FCF4E8;
-  --third-color: #C1B097;
-  --text-color: #000000;
-  --text-color-button: #FFFFFF;
-  --main-font: 'Montserrat';
-  --second-font: 'Pacifico';
-  --text-weight: 400;
-  --text-size: 16px;
+
+    --main-color : #DBAE3E;
+    --second-color : #FCF4E8;
+    --third-color :  #C1B097;
+    --text-color : #000000;
+    --text-color-button :#FFFFFF;
+    --main-font : 'Montserrat', sans-serif;
+    --second-font : 'Pacifico', cursive;
+    --text-weight :400;
+    --text-size : 16px ;
 }
+
 
 
 body,
@@ -137,10 +139,6 @@ html {
   background-color: var(--second-color);
 }
 
-
-
-
-
 .filtre {
   display: flex;
   flex-wrap: wrap;
@@ -150,6 +148,12 @@ html {
   gap: 5%;
   width: 100%;
   padding: 2% 2%;
+    justify-content: center;
+  align-items: center;
+  flex-direction: row;
+    gap: 5%;
+    width: 100%;
+    padding: 2% 2%;
 }
 
 .filtreTxt {
@@ -163,9 +167,9 @@ html {
   width: 75px;
   cursor: pointer;
   border-radius: 50%;
-  margin-bottom: 5%;
+  margin: 0 auto;
   background-color: var(--second-color);
-  border: black 2px;
+  border: black 1px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -177,9 +181,43 @@ html {
   transform: translateY(5px)
 }
 
-.pictoFiltre1 .pictoFiltre2 .pictoFiltre3 {
+.pictoFiltre {
   height: 75px;
   width: 75px;
+}
+
+/*---------------------------------------------------*/
+
+
+.map {
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px grey;
+  padding: 15px;
+  background-color: white;
+}
+
+
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--second-color);
+  padding-bottom: 30px;
+
+}
+
+.textMap {
+
+  font-family: var(--second-font);
+  text-align: center;
+  font-size: 30px;
+  font-weight: var(--text-weight);
+  padding: 15px;
 }
 
 

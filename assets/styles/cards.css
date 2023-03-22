@@ -1,5 +1,7 @@
 
 
+
+
 .card {
     width: 340px;
     height: 150px;
@@ -12,6 +14,7 @@
 
   .shopList{
     background-color: var(--second-color);
+    padding: 20px;
   }
   
   .card-top-part {
