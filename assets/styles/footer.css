@@ -139,3 +139,14 @@ footer {
 .logo-social-media p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+
+/* ---------------- MEDIA QUERIES ---------------- */
+
+@media screen and (max-width:904px){
+    .box {
+        flex-direction: column;
+
+    }
+}
