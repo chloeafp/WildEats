@@ -147,10 +147,8 @@ body, html {
     width: 100%;
     padding: 2% 2%;
 }
-.filtreTxt {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.buttonP {
+  text-align: center;
 }
 
 .filtreButton {

@@ -26,6 +26,7 @@
 }
 
 .left-part {
+    padding: 8px;
     width: 70%;
     display: flex;
     flex-direction: column;
