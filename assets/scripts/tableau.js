@@ -239,7 +239,7 @@ const restaurant = [
     type: "Vegan",
     name: "LA FIERE CAROTTE ",
     picture: "./assets/images/logos/carotte.png",
-    description: "",
+    description: "Elaborée à partir de produits frais, locaux. Venez découvrir notre menu équilibré et et respectueux de l'environnement dans une ambiance accueillante et éco-responsable.",
     adress: "4 rue Baron 44000 Nantes",
     link: "CAROTTE RAPEE ",
   },
