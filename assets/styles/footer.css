@@ -25,6 +25,7 @@ opacity: 0.5;
     color: black;
     text-align: center;
     font-family: var(--main-font);
+    border: 1px solid var(--text-color);
    
 
 }
@@ -39,11 +40,11 @@ opacity: 0.5;
     color: rgb(227, 236, 236);
     cursor: pointer;
     font-family: var(--second-font);
-    font-weight: 400;
-    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
+    transition: 0.5s;
 }
 
 #button-submit:hover {
@@ -127,7 +128,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .logo-social-media img {

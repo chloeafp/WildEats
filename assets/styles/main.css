@@ -51,7 +51,7 @@ body, html {
 /* -----------------------  Hero Title - Header  ---------------------------- */
 
 .header {
-  margin: 30% 0.5rem;
+  margin: 40% 0.5rem;
 }
 
 .header-text {
@@ -91,8 +91,7 @@ body, html {
   display: flex;
   font-family: var(--main-font);
   text-transform: uppercase;
-  justify-content: space-between;
-  font-weight: 400;
+  justify-content: space-around;
   letter-spacing: 1px;
 }
 
@@ -122,8 +121,8 @@ body, html {
   right: 15%;
   top: 0;
   bottom: 0;
-  border-left: 3px solid var(--text-color);
-  border-right: 3px solid var(--text-color);
+  border-left: 1px solid var(--text-color);
+  border-right: 1px solid var(--text-color);
 }
 
 .nav-bar a:hover:before,
@@ -135,7 +134,12 @@ body, html {
 
 /* -------------- Tommy -------------- */
 .selector {
-  background-color: var(--second-color);}
+  background-color: var(--second-color);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+
 
 .filtre {
   display: flex;
@@ -178,6 +182,7 @@ body, html {
 
 /* --------------------- Title About Us --------------------- */
 #titleSectionForm h2 {
+  padding-top: 3rem;
   font-family: var(--second-font);
   font-size: 2rem;
 }
@@ -192,12 +197,11 @@ body, html {
   text-align: center;
   margin: 2rem auto;
 }
-/*---------------------------------------------------*/
 
 
 .map {
  width: 100%;
- height: 20rem;
+ height: 30rem;
 }
 
 
