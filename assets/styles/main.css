@@ -224,6 +224,11 @@ body, html {
   .hamburger {
     display: none;
   }
+
+  .box {
+    width: 60%;
+    
+  }
 }
   
 @media screen and (max-width:1570px) and (min-width: 1260px){
