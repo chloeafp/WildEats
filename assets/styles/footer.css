@@ -1,6 +1,7 @@
 
 .box {
     display: flex;
+    width: 80%;
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
@@ -11,7 +12,7 @@
 
 .barre {
     border-radius: 20px;
-    width: 29rem;
+    width: 60%;
     height: 30px;
     color: black;
     text-align: center;
